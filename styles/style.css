@@ -10,11 +10,6 @@
   
 }
 
-.box {
-  border: 1px solid red;
-
-}
-
 
 .header {
   display: flex;
@@ -29,10 +24,12 @@
 }
 
 .logo {
-  position: absolute;
+  width: 228px;
+  height: 32px;
 }
 
-.logo__place_header {
+.logo_place_header {
+  position: absolute;
   top: 30px;
   left: 64px;
   z-index: 3;
@@ -47,20 +44,21 @@
   font-size: 102px;
   font-weight: 700;
   line-height: 96px;
-  width: 730px;
-  align-items: center;
-  margin: auto auto auto 64px;
+  max-width: 730px;
+  margin: auto 64px;
   z-index: 3;
 }
 
 .header__subtitle {
+  margin: 0;
+  padding: 0;
   font-size: 18px;
   font-weight: normal;
   line-height: 25px;
   position: absolute;
   bottom: 30px;
   left: 64px;
-  width: 338px;
+  width: 388px;
 }
 
 .header__link {
@@ -71,6 +69,8 @@
 /* иллюстрация двоечника */
 .header__main-illustration {
   position: absolute;
+  width: 765px;
+  height: 608px;
   bottom: 0;
   right: 0;
   z-index: 2;
@@ -91,18 +91,16 @@
 .description {
   display: flex;
   width: 80%;
-  margin: 100px auto;
-  min-height: 200px;
+  margin: 100px auto 0 auto;
 }
 
-.description__two-columns {
+.two-columns {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 100px;
 }
 
-.description__two-columns-brief {
+.two-columns__brief {
   flex: 0 0 175px;
   font-size: 18px;
   line-height: 1.2;
@@ -111,33 +109,37 @@
   margin: 0;
 }
 
-.description__two-columns-main-text {
+.two-columns__main-text {
   width: 80%;
   min-width: 784px;
 }
 
-.description__two-columns_paragraph {
+.two-columns__paragraph {
   font-size: 24px;
   line-height: 34px;
   margin: 0 0 30px 0px;
 }
 
-.description__two-columns_paragraph:last-of-type {
+.two-columns__paragraph:last-of-type {
   margin-bottom: 0;
 }
 
-.span-accent {
+.two-columns__span-accent {
   font-weight: bold;
 }
 
 
 /* блоки цифр и Кауфмана общие свойства */
-.digits, .kaufman {
+.digits {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 100px 0 100px 0;
+}
+
+.digits_theme_dark {
+  background-color:#1f1f1f;
 }
 
 .section-title {
@@ -150,17 +152,23 @@
   padding: 0;
 }
 
+.section-title_theme_dark {
+  color: white;
+  z-index: 1;
+}
+
 .section-subtitle {
   width: 60%;
   text-align: center;
-  margin-top: 30px;
+  margin: 20px 0 0 0;
   font-size: 24px;
   line-height: 34px;
   font-weight: normal;
 }
 
-.sectiion-subtitle__theme-dark {
+.sectiion-subtitle_theme_dark {
   margin: 20px 0 0 0;
+  color: white;
   font-size: 24px;
   line-height: 34px;
   font-weight: normal;
@@ -176,19 +184,24 @@
   flex-wrap: wrap;
 }
 
-.table__theme_dark {
+.table_theme_dark {
   padding-top: 80px;
   gap: 5px;
   row-gap: 80px;
   font-size: 60px;
   line-height: 1.15;
   font-weight: 700;
+  z-index: 1;
 }
 
 .table__cell {
   margin: 0;
   padding: 0;
   width: 250px;
+}
+
+.table__cell_theme_dark {
+  width: 200px;
 }
 
 .table__heading {
@@ -199,10 +212,8 @@
   font-weight: 700;
 }
 
-.table__heading_theme-dark {
-  font-size: 24px;
-  line-height: 1.15;
-  font-weight: 700;
+.table__heading_theme_dark {
+  color: white;
 }
 
 .table__text {
@@ -213,13 +224,11 @@
   font-weight: normal;
 }
 
-.table__text_theme-dark {
-  font-size: 18px;
-  line-height: 1.2;
-  font-weight: normal;
+.table__text_theme_dark {
+  color: white;
 }
 
-.table__text-info {
+.table__text:last-child {
   margin: 20px 0 0 0;
   padding: 0;
 }
@@ -229,17 +238,23 @@
   width: 200px;
 }
 
-
-
-.kaufman__theme-dark {
-  background-color: #1f1f1f;
-  color: white;
-  padding: 90px 0 90px 0;
+.kaufman {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
-  background-image: url(../images/kaufman-triangle.svg);
-  background-position: top right -300px;
-  background-size: 877px 877px;
-  background-repeat: no-repeat;
+  position: relative;
+  padding: 90px 0 90px 0;
+}
+
+.kaufman__triangle {
+  width: 877px;
+  height: 877px;
+  position: absolute;
+  top: 0;
+  right: -210px;
+  z-index: 0;
 }
 
 .feynman {
@@ -248,10 +263,7 @@
   height: 890px;
   flex-direction: column;
   align-items: center;
-  background-color: #f2f2f2;
-  background-image: url(../images/feynman.png);
-  background-repeat: no-repeat;
-  background-position: bottom left;
+  background: no-repeat left bottom url(../images/feynman.png), #f2f2f2;
   background-size: 867px;
 }
 
@@ -301,7 +313,7 @@
   justify-content: space-between;
 }
 
-.footer__column_content-copyrigh {
+.footer__column_content_copyrigh {
   display: flex;
   flex-direction:column;
   flex-basis: 711px;
