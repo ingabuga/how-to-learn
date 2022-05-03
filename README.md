@@ -9,15 +9,15 @@
 Второй учебный проект от Яндекс Практикума. Верстка посадочной страницы с разными блоками с использованием БЭМ.
 
 ### Используемые технологии
-<ul style="list-style:none; padding-left:0;">
+
   <img src="readme_img/sprint_flex.png">
-  <li style="margin-bottom:20px;">Flex</li>
+  <p style="margin-bottom:20px;">Flex</p>
   <img src="readme_img/sprint_grid.png">
-  <li style="margin-bottom:20px;">Grid</li>
+  <p style="margin-bottom:20px;">Grid</p>
   <img src="readme_img/sprint_rotate.gif">
-  <li style="margin-bottom:20px;">CSS-анимация</li>
+  <p style="margin-bottom:20px;">CSS-анимация</p>
   <img src="readme_img/sprint_feynman.png">
-  <li style="margin-bottom:20px;">Фоновые изображения с CSS</li>
+  <p style="margin-bottom:20px;">Фоновые изображения с CSS</p>
 </ul>
 
 ## Планы по доработке проекта
