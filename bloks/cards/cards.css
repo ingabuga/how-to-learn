@@ -1,4 +1,4 @@
-.techniques__cards {
+.cards {
   display: grid;
   grid-template-columns: 240px 240px 240px;
   grid-template-rows: 1fr 1fr;

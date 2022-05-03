@@ -16,11 +16,11 @@
 @import url(../bloks/section/_theme/section_theme-dark.css);
 @import url(../bloks/header/__logo/header__logo.css);
 @import url(../bloks/techniques/techniques.css);
-@import url(../bloks/techniques/__cards/techniques__cards.css);
-@import url(../bloks/techniques/__cards/_item/techniques__cards_item.css);
-@import url(../bloks/techniques/__cards/_image/techniques__cards_image.css);
-@import url(../bloks/techniques/__cards/_title/techniques__card_title.css);
-@import url(../bloks/techniques/__cards/description/techniques__card_description.css);
+@import url(../bloks/cards/cards.css);
+@import url(../bloks/cards/__item/cards__item.css);
+@import url(../bloks/cards/__image/cards__image.css);
+@import url(../bloks/cards/__title/cards__title.css);
+@import url(../bloks/cards/__description/cards_description.css);
 @import url(../bloks/video/video.css);
 @import url(../bloks/video/__iframes/video__iframes.css);
 @import url(../bloks/video/__frame/video__frame.css);
