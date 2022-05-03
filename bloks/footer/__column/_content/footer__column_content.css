@@ -1,0 +1,16 @@
+.footer__column_content-copyright {
+  display: flex;
+  flex-direction:column;
+  flex-basis: 711px;
+  justify-content: space-between;
+}
+
+.footer__column_content-info {
+  margin:0;
+  padding: 0;
+}
+
+.footer__column_content-social {
+  margin:0;
+  padding: 0;
+}
