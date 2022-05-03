@@ -1,16 +1,16 @@
-.footer__column_content-copyright {
+.footer__column_content_copyright {
   display: flex;
   flex-direction:column;
   flex-basis: 711px;
   justify-content: space-between;
 }
 
-.footer__column_content-info {
+.footer__column_content_info {
   margin:0;
   padding: 0;
 }
 
-.footer__column_content-social {
+.footer__column_content_social {
   margin:0;
   padding: 0;
 }
