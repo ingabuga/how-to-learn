@@ -1,0 +1,7 @@
+.techniques__cards {
+  display: grid;
+  grid-template-columns: 240px 240px 240px;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 100px;
+  row-gap: 60px;
+}

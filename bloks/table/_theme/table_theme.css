@@ -1,0 +1,9 @@
+.table_theme_dark {
+    padding-top: 80px;
+    gap: 5px;
+    row-gap: 80px;
+    font-size: 60px;
+    line-height: 1.15;
+    font-weight: 700;
+    z-index: 1;
+}
