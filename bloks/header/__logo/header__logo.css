@@ -1,17 +1,4 @@
 .logo {
-    width: 228px;
-    height: 32px;
-  }
-  
-  .logo_place_header {
-    position: absolute;
-    top: 30px;
-    left: 64px;
-    z-index: 3;
-  }
-  
-  .logo_place_footer {
-    width: 228px;
-    height: 32px;
-  }
-  
+  width: 228px;
+  height: 32px;
+}
