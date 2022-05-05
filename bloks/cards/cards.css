@@ -1,8 +1,7 @@
 .cards {
-  display: flex;
-  flex-wrap: wrap;
-  width: 920px;
-  justify-content: flex-start;
+  display: grid;
+  grid-template-columns: 240px 240px 240px;
+  grid-template-rows: min-content;
   column-gap: 100px;
   row-gap: 0;
 }
