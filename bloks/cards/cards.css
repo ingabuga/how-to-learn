@@ -1,6 +1,8 @@
 .cards {
-  display: grid;
-  grid-template-columns: 240px 240px 240px;
-  grid-template-rows: 1fr 1fr;
+  display: flex;
+  flex-wrap: wrap;
+  width: 920px;
+  justify-content: flex-start;
   column-gap: 100px;
+  row-gap: 0;
 }
