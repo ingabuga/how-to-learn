@@ -1,7 +1,26 @@
+/* Вариант верстки блока на гридах
+
 .cards {
   display: grid;
   grid-template-columns: 240px 240px 240px;
   grid-template-rows: min-content;
   column-gap: 100px;
   row-gap: 0;
+  list-style-type:none;
+  padding: 0;
+  margin: 0;
+
+}
+*/
+
+/* Вариант верстки на флексах */
+
+.cards {
+  display: flex;
+  width: 920px;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: flex-start;
+  padding: 0;
+  margin: 0;
 }

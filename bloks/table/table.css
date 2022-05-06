@@ -1,10 +1,12 @@
 .table {
     display: flex;
     width: 1100px;
-    padding-top: 60px;
     gap: 25px;
     row-gap: 60px;
     justify-content: space-between;
     flex-wrap: wrap;
     z-index: 1;
+    list-style-type: none;
+    margin:60px 0 0;
+    padding: 0;
 }
