@@ -62,11 +62,11 @@
 @import url(../bloks/footer/footer.css);
 @import url(../bloks/footer/__columns/footer__columns.css);
 @import url(../bloks/footer/__author/footer__author.css);
-@import url(../bloks/footer/__column/footer__column-link.css);
-@import url(../bloks/footer/__column/footer__column-links.css);
+@import url(../bloks/footer/__column-links/footer__column-links.css);
+@import url(../bloks/footer/__column-link/footer__column-link.css);
 @import url(../bloks/footer/__column/_content/footer__column_content_copyright.css);
 @import url(../bloks/footer/__column/_content/footer__column_content_social.css);
 @import url(../bloks/footer/__column/_content/footer__column_content_info.css);
 @import url(../bloks/footer/__heading/footer__heading.css);
-@import url(../bloks/footer/__social/footer__social-icon.css);
+@import url(../bloks/footer/__social-icon/footer__social-icon.css);
 @import url(../bloks/rotation/rotation.css);
