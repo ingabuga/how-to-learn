@@ -27,3 +27,7 @@
 <li>JavaScript-события</li>
 <li>Отправка формы обратной связи</li>
 </ul>
+
+
+Ссылка на проект
+https://ingabuga.github.io/how-to-learn/
